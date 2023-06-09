@@ -1,0 +1,9 @@
+pgsql:
+    image: 'postgres:14'
+    ports:
+      - '5432:5432'
+    environment:
+      PGPASSWORD: 'secret'
+      POSTGRES_DB: 'kompani'
+      POSTGRES_USER: 'root'
+      POSTGRES_PASSWORD: 'secret'
